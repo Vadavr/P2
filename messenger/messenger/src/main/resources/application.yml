@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  application:
+    name: messenger-back
+  jpa:
+    hibernate:
+      ddl-auto: create
+server:
+  port: 8432
+
+
